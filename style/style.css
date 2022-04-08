@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+}
+
+img, video {
+    max-width: 100%;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+body, a, input, button, li {
+font-family: 'Montserrat', sans-serif;
+color: #292835;
+}
+
+.rag-logo {
+    display: grid;
+    place-items: center;
+}
+
+h1, h2, h3, h4 {
+    font-size: 2em;
+    border-bottom: .07em solid #E9724C;
+    margin-bottom: .7em;
+    letter-spacing: 2px;
+}
+
+main {
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
+.banner {
+    background-image: url('./media/ragnarok-wallpaper-0.jpg');
+    height: 42vh;
+    background-position-x: center;
+    background-position-y: -250px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 14vh;
+    border-bottom: .05em solid; 
+    position: sticky;
+    top: 0;
+}
+
+.nav {
+    list-style-type: square;
+    width: 7em;
+    height: 3.5em;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+
+.nav-link:hover {
+    border-bottom: .2em solid;
+}
+
+.footer {
+    display: flex;
+    background-color: #403F4C;
+    color: #fff;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-equal {
+    flex: 1;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+p {
+    margin-bottom: 1em;
+    padding: 0 .5em;
+}
+
+.box {
+    width: 21em;
+    height: 21em;
+    padding: 1.4em;
+    background: linear-gradient(to top, #403F4C, #555364, #716e85);
+    border-radius: 1em;
+    color: #f2f2f2
+}
+
+.grid-center {
+    display: grid;
+    place-items: center;
+}
+
+.party {
+    width: 70vw;
+}
+
+.text-right {
+    text-align: right;
+}
