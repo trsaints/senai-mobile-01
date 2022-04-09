@@ -5,5 +5,3 @@ Este é um projeto agregando conhecimentos HTML e CSS para o curso de Desenvolve
 Tecnologias usadas:
 * HTML
 * CSS
-
----Branch de Desenvolvimento---
