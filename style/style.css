@@ -27,8 +27,13 @@ button {
   color: #292835;
 }
 
+a:hover {
+  color: #e9724c;
+  text-decoration: none;
+}
+
 li {
-    list-style: inside;
+  list-style: inside;
 }
 
 .rag-logo {
@@ -64,8 +69,7 @@ main {
   align-items: center;
   height: 14vh;
   border-bottom: 0.05em solid;
-  position: sticky;
-  top: 0;
+  margin-bottom: 2em;
 }
 
 .nav {
@@ -93,7 +97,7 @@ main {
 }
 
 section {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .footer {
@@ -115,6 +119,10 @@ section {
 
 .d-flex {
   display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .flex-column {
@@ -161,7 +169,7 @@ p {
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .color-white {
@@ -169,21 +177,36 @@ p {
 }
 
 .table {
-    width: 10em;
-    border-collapse: collapse;
-    border: .1em solid;
-    font-size: 75%;
-    text-align: center;
+  width: 10em;
+  border-collapse: collapse;
+  border: 0.1em solid;
+  font-size: 75%;
+  text-align: center;
 }
 
-td, th {
-    border: .1em solid;
+td,
+th {
+  border: 0.1em solid;
 }
 
 table tr {
-    height: 2em;
+  height: 2em;
 }
 
 table td {
-    padding: .5em 1em;
+  padding: 0.5em 1em;
+}
+
+.img-frame {
+  width: 20em;
+  margin: 0.5em 1em;
+  border-radius: 0.5em;
+  display: inline-block;
+  transition-duration: 0.15s;
+  box-shadow: 1px 1px 5px #716e85;
+}
+
+.img-frame:hover {
+  transform: scale(175%);
+  z-index: 10;
 }
